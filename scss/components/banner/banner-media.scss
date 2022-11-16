@@ -1,0 +1,10 @@
+@media (max-width: 992px) {
+  .banner {
+    &__wrapper-title-subscription {
+      position: absolute;
+      bottom: 40%;
+      left: 50%;
+      transform: translate(-50%, -40%);
+    }
+  }
+}

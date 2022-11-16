@@ -157,8 +157,52 @@ h1 {
     margin-top: 30px;
   }
   .header__links-wrap > a {
-    font-size: 24px;
+    font-size: 22px;
   }
+}
+@media (max-width: 992px) {
+  .banner__wrapper-title-subscription {
+    position: absolute;
+    bottom: 40%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+  }
+}
+.banner {
+  background: url("../assets/banner-bg.png") bottom no-repeat;
+  background-size: cover;
+  min-height: 716px;
+  position: relative;
+}
+.banner__wrapper-title-subscription {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translate(-50%, -10%);
+}
+.banner__wrapper-aperture {
+  position: absolute;
+  bottom: 2.5%;
+  right: 2.5%;
+  transform: translate(-2.5%, -2.5%);
+}
+.banner__subtitle > p {
+  letter-spacing: 2px;
+}
+.banner__title {
+  margin-top: 10px;
+}
+.banner__wrapper-title-subscription > div h1 {
+  text-align: center;
+  color: aliceblue;
+}
+.banner__wrapper-title-subscription > div p {
+  color: #C0C0C0;
+  max-width: 580px;
+  text-align: center;
+}
+.banner__description {
+  margin-top: 14px;
 }
 
 /*# sourceMappingURL=stylesheet.css.map */

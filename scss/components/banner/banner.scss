@@ -1,0 +1,38 @@
+.banner {
+    background: url("../assets/banner-bg.png") bottom no-repeat;
+    background-size: cover;
+    min-height: 716px;
+    position: relative;
+    &__wrapper-title-subscription {
+        position: absolute;
+        bottom: 10%;
+        left: 50%;
+        transform: translate(-50%, -10%);
+    }
+    &__wrapper-aperture {
+        position: absolute;
+        bottom: 2.5%;
+        right: 2.5%;
+        transform: translate(-2.5%, -2.5%);
+    }
+    &__subtitle > p {
+        letter-spacing: 2px;
+    }
+    &__title {
+        margin-top: 10px;
+    }
+    &__wrapper-title-subscription > div {
+        h1 {
+            text-align: center;
+            color: aliceblue;
+        }
+        p {
+            color: #C0C0C0;
+            max-width: 580px;
+            text-align: center;
+        }
+    }
+    &__description {
+        margin-top: 14px;
+    }
+}
