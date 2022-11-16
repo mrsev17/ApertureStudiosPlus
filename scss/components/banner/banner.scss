@@ -1,6 +1,7 @@
 .banner {
     background: url("../assets/banner-bg.png") bottom no-repeat;
     background-size: cover;
+    background-position: center;
     min-height: 716px;
     position: relative;
     &__wrapper-title-subscription {

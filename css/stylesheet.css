@@ -165,12 +165,13 @@ h1 {
     position: absolute;
     bottom: 40%;
     left: 50%;
-    transform: translate(-50%, -40%);
+    transform: translate(-50%, -10%);
   }
 }
 .banner {
   background: url("../assets/banner-bg.png") bottom no-repeat;
   background-size: cover;
+  background-position: center;
   min-height: 716px;
   position: relative;
 }
