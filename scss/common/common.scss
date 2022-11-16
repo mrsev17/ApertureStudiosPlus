@@ -1,0 +1,26 @@
+@import "variables";
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+h1 {
+  font-size: 54px;
+  font-weight: 400;
+  line-height: 60px;
+}
+.medium-title {
+  font-size: 400px;
+  line-height: 42px;
+  text-align: center;
+}
+.small-text {
+  font-size: 14px;
+  line-height: 20px;
+}
+.read-more {
+  font-size: 15px;
+  line-height: 20px;
+}
+.custom-toggler-nav {
+  background-color: aliceblue;
+}

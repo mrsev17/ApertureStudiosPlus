@@ -1,0 +1,164 @@
+html {
+  height: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+a {
+  display: inline-block;
+  color: #000;
+  text-decoration: none !important;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  line-height: 1.5;
+  scroll-behavior: smooth;
+  text-rendering: optimizespeed;
+}
+
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+article > * + * {
+  margin-top: 1em;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  font-size: 54px;
+  font-weight: 400;
+  line-height: 60px;
+}
+
+.medium-title {
+  font-size: 400px;
+  line-height: 42px;
+  text-align: center;
+}
+
+.small-text {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.read-more {
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.custom-toggler-nav {
+  background-color: aliceblue;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: local("Poppins Regular"), local("Poppins-Regular"), url("../fonts/Poppins-Regular.woff2") format("woff2"), url("../fonts/Poppins-Regular.woff") format("woff"), url("../fonts/Poppins-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+.header {
+  background-color: #080808;
+}
+.header__wrapper-bar {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.header__links-wrap > a {
+  color: aliceblue;
+  font-size: 15px;
+  border: 2px solid transparent;
+  transition: ease-in-out 0.7s;
+}
+.header__links-wrap > a:hover {
+  transition: 0.5s;
+  border-bottom: 2px solid aliceblue;
+}
+.header__get-template-btn-case > a {
+  color: black;
+  background-color: aliceblue;
+  padding: 10px 20px 10px 20px;
+  font-size: 16px;
+  border-radius: 14px;
+  border: 2px solid transparent;
+  transition: ease-in-out 0.7s;
+}
+.header__get-template-btn-case > a:hover {
+  border: 2px solid aliceblue;
+  background: black;
+  transition: 0.5s;
+  color: aliceblue;
+}
+
+@media (max-width: 992px) {
+  .header__wrapper-links {
+    margin-top: 30px;
+  }
+  .header__links-wrap > a {
+    font-size: 24px;
+  }
+}
+
+/*# sourceMappingURL=stylesheet.css.map */

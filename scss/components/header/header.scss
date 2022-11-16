@@ -1,0 +1,32 @@
+.header {
+  background-color: #080808;
+  &__wrapper-bar {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  &__links-wrap > a {
+    color: aliceblue;
+    font-size: 15px;
+    border: 2px solid transparent;
+    transition: ease-in-out .7s;
+    &:hover {
+      transition: .5s;
+      border-bottom: 2px solid aliceblue;
+    }
+  }
+  &__get-template-btn-case > a {
+    color: black;
+    background-color: aliceblue;
+    padding: 10px 20px 10px 20px;
+    font-size: 16px;
+    border-radius: 14px;
+    border: 2px solid transparent;
+    transition: ease-in-out .7s;
+    &:hover {
+      border: 2px solid aliceblue;
+      background: black;
+      transition: .5s;
+      color: aliceblue;
+    }
+  }
+}
